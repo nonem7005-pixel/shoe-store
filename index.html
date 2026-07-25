@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shoe Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>👟 Shoe Store</h1>
+
+<input type="text" id="search" placeholder="Search Shoes..." onkeyup="searchProduct()">
+
+<div>
+<a href="cart.html">🛒 Cart (<span id="cart-count">0</span>)</a>
+&nbsp;&nbsp;
+❤️ Wishlist (<span id="wish-count">0</span>)
+</div>
+
+</header>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400">
+<h2>Nike Air</h2>
+<p>₹2999</p>
+<button onclick="addCart('Nike Air',2999)">Add To Cart</button>
+<button onclick="addWishlist()">❤️</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400">
+<h2>Adidas</h2>
+<p>₹3499</p>
+<button onclick="addCart('Adidas',3499)">Add To Cart</button>
+<button onclick="addWishlist()">❤️</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400">
+<h2>Puma</h2>
+<p>₹2599</p>
+<button onclick="addCart('Puma',2599)">Add To Cart</button>
+<button onclick="addWishlist()">❤️</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400">
+<h2>Reebok</h2>
+<p>₹2799</p>
+<button onclick="addCart('Reebok',2799)">Add To Cart</button>
+<button onclick="addWishlist()">❤️</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
