@@ -83,3 +83,22 @@ font-weight:bold;
     border-radius:15px;
     margin:20px 0;
 }
+.user-links{
+    text-align:center;
+    margin:15px 0;
+}
+
+.user-links a{
+    display:inline-block;
+    background:#007bff;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    margin:5px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.user-links a:hover{
+    background:#0056b3;
+}
